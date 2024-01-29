@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  .container {
+    margin: auto;
+    
+  }
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 13px 20px;
+}
+
+.topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+}
+img.spotify-logo {
+    width: 10%;
+    height: auto;
+    padding:4px 2px ;
+  }
+
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul {
+    list-style: none;
+}
+
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+   margin-left: 40px;
+    margin-right: 0px;
+}
+
+.topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus{
+
+    color: #038b30;
+    font-size: 15px;
+}
+
+.topbar .navbar ul li .divider{
+    color: #ffffff;
+    font-size: 26px;
+    margin: opx 10px;
+    width: 30px;
+}
+
+.topbar .navbar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.topbar .navbar button:hover,
+.topbar.navbar button :active,
+.topbar.navbar button :focus{
+    background-color: #038b30;
+}
+
+  /* card 2 */
+  .card-2 {
+    top: 39em;
+    background-image: url("images/support7.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 39em;
+    height: 39em;
+  }
+  
+   .card2-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; 
+
+ }  
+ .tex1{
+  color:#c8c1c1; 
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 8%;
+  margin-left: 470px;
+  margin-right: 245px;
+  font-size: 13px;
+ } 
+ .tex{
+  color:#ffffff; 
+  font-family: 'Montserrat', sans-serif;
+  margin-left:465px;
+  margin-right: 245px;
+  font-size: 50px;
+  /* border: 1px solid white; */
+ }
+ .tex:hover,
+.tex:active,
+.tex:focus{
+
+    color: #038b30;
+   
+}
+ 
+.card-2.card2-container.searchbar{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type=search]{
+  width:64%;
+  padding: 8px 20px 8px 45px;
+  border: white solid 2px;
+  font-size:20px ;
+  border-radius: 25px;
+  background: url(icons/search.svg);
+  background-position: 2% 50%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-color: #fff;
+  transition: 0.5s all ease-in-out;
+  filter: brightness(100%);
+  margin-left: 505px;
+  margin-top: 50px;
+
+}
+input[type=search]:focus
+input[type=search]:not(:placeholder-shown){
+width: 350px;
+background-color: #fff;
+filter: brightness(100%);
+}
+ .flex-container{
+  width:100%;
+  height: auto;
+  display: flex;
+  margin: 20% ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 400px;
+ justify-content: center;
+ margin-left: 400px;
+ margin-top: 5%;
+ padding-top:0%;
+ margin-bottom: 15%;
+  } 
+
+  .flex-container h1{
+    color:#fefbfb;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: #090909;
+  
+    
+  }
+  
+  .flex-box1{
+    width:180px;
+    height: 100px;
+    background-color: #356ca7a8;
+    font-size: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  .flex-box2{
+    width:180px;
+    height: 100px;
+    background-color:rgba(141, 170, 54, 0.516);
+    font-size: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  .flex-box3{
+    width:180px;
+    height: 100px;
+    background-color: #a53445c6;
+    font-size: 10px;
+    text-align: center;
+    line-height:100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  .flex-box4{
+    width:180px;
+    height: 100px;
+    background-color: #f1a7b2e2;
+    font-size: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  .flex-box5{
+    width:180px;
+    height: 100px;
+    background-color: rgba(217, 70, 7, 0.708);
+    font-size: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  .flex-box6{
+    width:180px;
+    height: 100px;
+    background-color: rgba(172, 93, 203, 0.731);
+    font-size: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  .flex-box1:hover{
+    box-shadow: 0 0 30px 0 rgb(16, 136, 52);
+    transition: 0.5s;
+    }
+.flex-box2:hover{
+    box-shadow: 0 0 30px 0 rgb(16, 136, 52);
+        transition: 0.5s;
+    }
+
+    .flex-box3:hover{
+        box-shadow: 0 0 30px 0 rgb(16, 136, 52);
+        transition: 0.5s;
+        }
+        .flex-box4:hover{
+            box-shadow: 0 0 30px 0 rgb(16, 136, 52);
+            transition: 0.5s;
+            }
+            .flex-box5:hover{
+                box-shadow: 0 0 30px 0 rgb(16, 136, 52);
+                transition: 0.5s;
+                }
+
+                .flex-box6:hover{
+                    box-shadow: 0 0 30px 0 rgb(16, 136, 52);
+                    transition: 0.5s;
+                    }
+
+        
+        
+  /* card3(links) */
+  .img-container {
+    font-family: 'Montserrat', sans-serif;
+    width: 140px;
+    height: 45px;
+  }
+  img.footer-img {
+    width: 94%;
+  }
+  footer {
+    background-color: #000;
+    width: auto;
+    height: 33.2em;
+    display: grid;
+    padding-left: 270px;
+    padding-top: 75px;
+    grid-template-columns: repeat(4, 190px);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .footer-links ul li h5 {
+    color: #a9a9a9;
+    font-size: 12px;
+   
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+  }
+  .footer-links ul li a {
+    display: flex;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .last-section-div {
+    width: auto;
+    margin-top: 25px;
+  }
+  .last-section-div ul {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: -190px;
+  }
+  .last-section-div ul li {
+    margin-right: 23px;
+  }
+  .last-section-div ul li a {
+    color: #a9a9a9;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .social-media-icons {
+    width: 250px;
+    height: 50px;
+    margin-left: 300%;
+    margin-top: 20px;
+  }
+  .state-copyright-area {
+    display: flex;
+    margin-right: 25px;
+  }
+  
+  .india-text {
+    color: #a9a9a9;
+    margin-top: 4px;
+    margin-left: 700px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .spotify-copyright {
+    color: #a9a9a9;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 400px;
+  }
+  /* icons */
+  .fa-instagram {
+    background: #242424;
+    color: white;
+    font-size: 28px;
+    width: 54px;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .fa-twitter {
+    background: #242424;
+    color: white;
+    font-size: 24px;
+    width: 54px;
+    padding: 14.5px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .fa-facebook {
+    background: #242424;
+    color: white;
+    font-size: 25px;
+    width: 54px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  /* hovers */
+  a.green:hover {
+    color: #1db954;
+  }
+  .fa-instagram:hover,
+  .fa-facebook:hover,
+  .fa-twitter:hover,
+  .footer-links ul li a:hover,
+  .usa-text:hover {
+    color: #21ce61;
+  }
+  .btn-white:hover {
+    transform: scale(1.06);
+  }
+  /* Nav Buttons(for media query) */
+  .nav-btn {
+    position: fixed;
+    top: 14px;
+    right: 60px;
+    z-index: 4;
+    display: none;
+  }
+  .fa-bars {
+    color: white;
+  }
+  .fa-close {
+    display: none;
+    color: white;
+  }
+  .spotify-logo-sidebar {
+    display: none;
+  }
+  /* Media Queries */
+  @media (max-width: 1445px) {
+    footer {
+      padding-left: 140px;
+    }
+    .main-nav ul.nav-options {
+      margin-left: 500px;
+    }
+    img.spotify-logo {
+      margin-left: 150px;
+      width: 9%;
+    }
+  }
+  @media (max-width: 1300px) {
+    footer {
+      padding-left: 50px;
+    }
+    .main-nav ul.nav-options {
+      margin-left: 500px;
+    }
+    img.spotify-logo {
+      margin-left: 50px;
+      width: 10%;
+    }
+    .text1-container {
+      width: 1000px;
+    }
+  }
+  @media (max-width: 1206px) {
+    .card-2 {
+      height: 24em;
+    }
+    .card2-text-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: -130px;
+    }
+    .main-nav ul.nav-options {
+      margin-left: 330px;
+    }
+    img.spotify-logo {
+      margin-left: 110px;
+      width: 12%;
+    }
+    footer {
+      padding-left: 113px;
+      grid-template-columns: repeat(3, 155px);
+    }
+    .footer-links {
+      grid-template-columns: repeat(3, 148px);
+    }
+    
+    
+    .india-text {
+      margin-left: 407%;
+    }
+    .last-section-div ul {
+      width: 1000px;
+      margin-left: -153px;
+    }
+    .last-section-div ul li {
+      position: flex;
+      margin-right: 20px;
+      white-space: nowrap;
+    }
+    .spotify-copyright {
+      margin-left: 240px;
+    }
+  }
+  @media (max-width: 1085px) {
+    footer {
+      padding-left: 20px;
+    }
+    .main-nav ul.nav-options {
+      margin-left: 270px;
+    }
+  }
+  @media (max-width: 993px) {
+    .card-1 {
+      height: 36em;
+    }
+    .card-2 {
+      height: 20em;
+    }
+    .text1-container {
+      width: 900px;
+    }
+    .subscription-div {
+      margin-top: -5px;
+      width: 900px;
+    }
+    footer {
+      padding-top: 60px;
+      grid-template-columns: repeat(3, 155px);
+      height: 43em;
+    }
+    img.footer-img {
+      padding-top: 10px;
+      margin-left: 80px;
+      margin-top: -300px;
+      width: 65%;
+      height: auto;
+    }
+    .footer-links {
+      padding-left: -100px;
+      margin-left: -70px;
+      margin-top: 74px;
+      grid-template-columns: repeat(3, 250px);
+    }
+    .social-media-icons {
+      margin-top: 450px;
+      margin-left: -240px;
+    }
+    .fa-facebook,
+    .fa-twitter {
+      width: 45px;
+      height: 45px;
+      font-size: 18;
+      padding: 10px;
+    }
+    .fa-instagram {
+      width: 45px;
+      height: 45px;
+      font-size: 18;
+      padding: 8px;
+    }
+
+    .last-section-div ul {
+      margin-left: -10px;
+      margin-top: 55px;
+    }
+    .last-section-div ul li {
+      position: flex;
+      margin-right: 20px;
+      white-space: nowrap;
+    }
+    .spotify-copyright {
+      margin-left: 80px;
+      white-space: nowrap;
+    }
+    .main-nav {
+      background-color: #000;
+      height: 60px;
+    }
+    img.spotify-logo {
+      margin-left: -600px;
+      width: 10%;
+    }
+    .nav-btn {
+      display: block;
+    }
+    .main-nav ul.nav-options {
+      z-index: 3;
+      display: block;
+      position: absolute;
+      margin-top: 415px;
+      left: 200px;
+      background: #000;
+      width: 45%;
+      height: 935px;
+      padding-top: 34px;
+      padding-left: 0px;
+      transform: translateX(600px);
+      transition: transform 0.5s ease-in-out;
+    }
+    .main-nav ul li {
+      margin-top: 30px;
+    }
+    .main-nav ul li a.white-text {
+      font-size: 35px;
+    }
+    .line {
+      width: 20px;
+      height: 0px;
+      border: 1px solid white;
+    }
+    .grey-text {
+      font-size: 28px;
+    }
+    .main-nav ul.display {
+      transform: translateX(20%);
+    }
+    .spotify-logo-sidebar {
+      display: block;
+      padding-left: 35px;
+      width: 28%;
+      margin-top: 460px;
+    }
+    .fa-close.show {
+      display: block;
+    }
+    .fa-bars.show {
+      display: none;
+    }
+  }
+  @media (max-width: 900px) {
+    footer {
+      padding-top: 60px;
+      height: 60em;
+    }
+    img.footer-img {
+      padding-top: 40px;
+      margin-left: 10px;
+    }
+    .footer-links {
+      margin-top: 30px;
+      margin-left: -140px;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-links ul {
+      margin-top: 40px;
+    }
+    .social-media-icons {
+      margin-top: 750px;
+      margin-left: -300px;
+    }
+    .last-section-div ul {
+      margin-left: 0px;
+      margin-top: 100px;
+    }
+   
+    .usa-text {
+      margin-left: 230%;
+      margin-top: 80px;
+    }
+    .spotify-copyright {
+      margin-left: 20px;
+      white-space: nowrap;
+    }
+    .text1-container {
+      width: 900px;
+      margin-left: -30px;
+    }
+    .card2-text-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: -130px;
+      margin-left: 0px;
+    }
+    img.spotify-logo {
+      margin-left: -600px;
+      width: 12%;
+    }
+    .main-nav ul.display {
+      width: 80%;
+      transform: translateX(-20px);
+    }
+  }
+  @media (max-width: 790px) {
+    .text1-container {
+      width: 900px;
+      margin-left: -60px;
+    }
+    .card2-text-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: -130px;
+      margin-left: -60px;
+    }
+    
+    .India-text {
+      margin-left: 60%;
+      margin-top: 25px;
+    }
+    .spotify-copyright {
+      margin-left: -410px;
+      margin-top: -50px;
+      white-space: nowrap;
+    }
+    .main-nav ul.display {
+      width: 80%;
+      transform: translateX(-0px);
+    }
+  }
